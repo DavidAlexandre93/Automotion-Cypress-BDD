@@ -1,6 +1,7 @@
 /// <reference types="Cypress" />
 
 import LoginElements from '../elements/LoginElements'
+import 'cypress'
 const loginElements = new LoginElements
 const url = Cypress.config("baseUrl")
 
@@ -17,6 +18,6 @@ class LoginPage {
   
     // Verifica se o botão tem o texto "Esqueceu sua senha?"
     visualizarBotaoRecuperarSenha() {
-        cy.get(loginElements.botaoRecuperarSenha()).should('contain', 'forgot password?')
+        cy.get(loginElements.botaoRecuperarSenha()).should('contain', 'Esqueceu a senha?')
     }
 }

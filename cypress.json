@@ -2,5 +2,7 @@
     "viewportWidth": 1366,
     "viewportHeight": 768,
     "defaultCommandTimeout": 10000,
-    "baseUrl": "https://devqaops.com.br/crm/index.php?module=Users&parent=Settings&view=Login&error=login"
+    "baseUrl": "https://www.facebook.com/",
+    "testFiles": "**/*.feature"
+    
 }
